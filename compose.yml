@@ -1,0 +1,10 @@
+version: '3'
+services:
+  mongo:
+    container_name: mongodb
+    image: mongo
+    restart: unless-stopped
+    ports:
+      - '27017:27017'
+    volumes:
+      - .docker-data/mongo:/data
