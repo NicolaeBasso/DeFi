@@ -35,6 +35,10 @@ $ npm install
 ## Running the app
 
 ```bash
+
+# Full startup
+$ npm run startup
+
 # development
 $ npm run start
 
@@ -44,6 +48,10 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+
+## Postman
+
+You can import postman collection from root directory to test endpoints
 
 ## Test
 
