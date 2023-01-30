@@ -1,0 +1,66 @@
+{
+  "info": {
+    "_postman_id": "06087f82-dd7a-4f6e-a1ab-6f0199a5a7bc",
+    "name": "DeFi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "14020293"
+  },
+  "item": [
+    {
+      "name": "Get remote pairs",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:7777/uniswap/pairs/remote/all",
+          "host": ["localhost"],
+          "port": "7777",
+          "path": ["uniswap", "pairs", "remote", "all"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get local pairs",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:7777/uniswap/pairs/all",
+          "host": ["localhost"],
+          "port": "7777",
+          "path": ["uniswap", "pairs", "all"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Sync pairs",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "url": {
+          "raw": "localhost:7777/uniswap/pairs/sync",
+          "host": ["localhost"],
+          "port": "7777",
+          "path": ["uniswap", "pairs", "sync"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete all",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "localhost:7777/uniswap/pairs/delete/all",
+          "host": ["localhost"],
+          "port": "7777",
+          "path": ["uniswap", "pairs", "delete", "all"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
